@@ -1,15 +1,3 @@
-<!--
-//
-// Boost.Pointer Container
-//
-//  Copyright Thorsten Ottosen 2003-2005. Use, modification and
-//  distribution is subject to the Boost Software License, Version
-//  1.0. (See accompanying file LICENSE_1_0.txt or copy at
-//  http://www.boost.org/LICENSE_1_0.txt)
-//
-// For more information, see http://www.boost.org/libs/ptr_container/
-//
--->
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE library PUBLIC "-//Boost//DTD BoostBook XML V1.0//EN"
 "http://www.boost.org/tools/boostbook/dtd/boostbook.dtd">
@@ -35,7 +23,7 @@
                <listitem> No memory-overhead as containers of smart_pointers can have.</listitem>
                <listitem> Faster than using containers of smart pointers.</listitem>
                <listitem> Provides an elegant solution to <code> vector< vector<T> > </code> performance
-                               problems; simply use  <code>ptr_vector< vector<T> ></code></listtem>
+                               problems; simply use  <code>ptr_vector< vector<T> ></code></listitem>
 	</para>
 	<para>		
          Below is given some example that show how the usage compares to a container of smart pointers:
